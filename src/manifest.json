@@ -1,10 +1,18 @@
 {  
   "name": "DNS-Hijacking-Killer-Chrome",  
+  "icons": {
+    "16": "dns16.png",
+    "48": "dns48.png",
+    "128": "dns128.png"
+  },
   "manifest_version": 2,  
   "version": "1.0",  
+  "options_page": "options.html",
   "description": "a chrome extension help you keep away from dns hijacking",  
   "browser_action": {  
-    "default_icon": "1.png"
+    "default_icon": "1.png",
+    "default_popup": "popup.html",
+    "default_title": "Dns劫持终结者"
   },
   "content_scripts": [  
     {  
