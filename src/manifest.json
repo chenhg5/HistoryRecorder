@@ -1,0 +1,15 @@
+{  
+  "name": "DNS-Hijacking-Killer-Chrome",  
+  "manifest_version": 2,  
+  "version": "1.0",  
+  "description": "a chrome extension help you keep away from dns hijacking",  
+  "browser_action": {  
+    "default_icon": "1.png"
+  },
+  "content_scripts": [  
+    {  
+      "matches": ["https://*.com/*"],  
+      "js": ["main.js"]  
+    }  
+  ]
+}
