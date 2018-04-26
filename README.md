@@ -1,3 +1,3 @@
-# DNS-Hijacking-Killer-Chrome
+# Search-History-Recorder
 
-a chrome extension help you keep away from dns hijacking
+a browser extension help you record the search history

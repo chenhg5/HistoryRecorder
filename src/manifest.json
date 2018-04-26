@@ -1,5 +1,5 @@
 {  
-  "name": "DNS-Hijacking-Killer-Chrome",  
+  "name": "Search-History-Recorder",  
   "icons": {
     "16": "dns16.png",
     "48": "dns48.png",
@@ -8,16 +8,16 @@
   "manifest_version": 2,  
   "version": "1.0",  
   "options_page": "options.html",
-  "description": "a chrome extension help you keep away from dns hijacking",  
+  "description": "a browser extension help you record the search history",  
   "browser_action": {  
     "default_icon": "1.png",
     "default_popup": "popup.html",
-    "default_title": "Dns劫持终结者"
+    "default_title": "Google Search Keeper"
   },
   "content_scripts": [  
     {  
-      "matches": ["https://*.com/*"],  
-      "js": ["main.js"]  
-    }  
+      "matches": ["https://google.com/*", "https://www.google.com/*", "http://www.google.com/*", "http://www.google.com/*"],  
+      "js": ["main.js"]
+    }
   ]
 }
