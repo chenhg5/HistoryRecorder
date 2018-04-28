@@ -1,9 +1,9 @@
 {  
   "name": "Search-History-Recorder",  
   "icons": {
-    "16": "dns16.png",
-    "48": "dns48.png",
-    "128": "dns128.png"
+    "16": "rec16.png",
+    "48": "rec48.png",
+    "128": "rec128.png"
   },
   "manifest_version": 2,  
   "version": "1.0",  
